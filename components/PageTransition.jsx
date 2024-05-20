@@ -1,3 +1,5 @@
+"use client";
+
 import { AnimatePresence } from 'framer-motion';
 
 function PageTransition({ children }) {
