@@ -20,7 +20,8 @@ function PageTransition({ children }) {
                 ease: "easeInOut",
               }
             }
-          }>
+          }
+          className='h-screen w-screen fixed bg-primary top-0 pointer-events-none'>
 
         </motion.div>
         {children}
