@@ -1,9 +1,10 @@
+import { AnimatePresence } from 'framer-motion';
 
-function PageTransition() {
+function PageTransition({ children }) {
   return (
-    <div>
-      
-    </div>
+    <AnimatePresence>
+      {children}
+    </AnimatePresence>
   )
 }
 
