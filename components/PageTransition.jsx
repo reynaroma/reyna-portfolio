@@ -4,9 +4,16 @@ import { AnimatePresence, motion } from 'framer-motion';
 import { usePathname } from 'next/navigation';
 
 function PageTransition({ children }) {
+  const pathName = usePathname();
+
   return (
     <AnimatePresence>
-      {children}
+      <div key={pathName}>
+        <motion.div>
+
+        </motion.div>
+        {children}
+      </div>
     </AnimatePresence>
   )
 }
