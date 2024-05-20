@@ -1,4 +1,7 @@
-import { AnimatePresence } from "framer-motion"
+'use client';
+
+import { AnimatePresence, motion } from "framer-motion";
+import { usePathname } from "next/navigation";
 
 function StairTransition() {
   return (
