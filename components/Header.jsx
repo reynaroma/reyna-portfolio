@@ -1,9 +1,9 @@
 
 function Header() {
   return (
-    <Header>
+    <header>
       header
-    </Header>
+    </header>
   )
 }
 
