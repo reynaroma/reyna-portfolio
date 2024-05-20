@@ -14,8 +14,19 @@ function Header() {
             Reyna<span className="text-accent">.</span>
           </h1>
         </Link>
-        {/* desktop nav */}
-        <Nav />
+
+        {/* desktop nav & hire me button*/}
+        <div className="hidden xl:flex">
+          <Nav />
+          <Link href="/contact">
+            <Button>Hire me</Button>
+          </Link>
+        </div>
+
+        {/* mobile nav */}
+        <div className="xl:hidden">
+          mobile nav
+        </div>
       </div>
     </header>
   )
