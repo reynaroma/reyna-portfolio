@@ -29,7 +29,8 @@ function Nav() {
   return (
     <nav className="flex gap-8">
       {links.map((link, index) => (
-        <Link className={``}
+        <Link
+          className={`${link.path === pathName ? "text-accent" : "text-white"}`}
           key={index}
           href={link.path}
         >
