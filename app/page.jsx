@@ -16,7 +16,7 @@ const Home = () => {
               I excel at crafting elegant digital experiences and I am proficient in various programming languages and technologies.
             </p>
             {/* btn and socials */}
-            <div>
+            <div className="flex flex-col items-center gap-8 xl:flex-row">
               <Button
                 variant="outline"
                 size="lg"
@@ -24,6 +24,7 @@ const Home = () => {
                 <span>Download CV</span>
                 <FiDownload className="text-xl" />
               </Button>
+              <div>Socials</div>
             </div>
           </div>
           {/* photo */}
