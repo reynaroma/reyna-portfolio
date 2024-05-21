@@ -36,6 +36,12 @@ function MobileNav() {
       <SheetTrigger className="flex justify-center items-center">
         <CiMenuFries className="text-[32px] text-accent" />
       </SheetTrigger>
+      <SheetContent className="flex flex-col text-black">
+        {/* logo */}
+        <div>
+          logo
+        </div>
+      </SheetContent>
     </Sheet>
   )
 }
