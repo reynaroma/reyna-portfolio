@@ -1,7 +1,17 @@
+import Link from "next/link";
 
-const Social = () => {
+import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
+import { SiGmail } from 'react-icons/si';
+
+const socials = [
+  { icon: <FaGithub />, path: '' },
+  { icon: <FaLinkedinIn />, path: '' },
+  { icon: <SiGmail />, path: '' },
+]
+
+const Social = ({ containerStyles, iconStyles }) => {
   return (
-    <div>Social</div>
+    <div className={containerStyles}>Social</div>
   )
 }
 

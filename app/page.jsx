@@ -1,6 +1,8 @@
-import Social from "@/components/Social";
 import { Button } from "@/components/ui/button";
 import { FiDownload } from "react-icons/fi";
+
+// components
+import Social from "@/components/Social";
 
 const Home = () => {
   return (
