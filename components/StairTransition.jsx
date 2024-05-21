@@ -3,6 +3,9 @@
 import { AnimatePresence, motion } from "framer-motion";
 import { usePathname } from "next/navigation";
 
+// components
+import Stairs from "./Stairs";
+
 function StairTransition() {
   const pathName = usePathname();
 
@@ -11,7 +14,7 @@ function StairTransition() {
       <AnimatePresence mode="wait">
         <div key={pathName}>
           <div className="h-screen w-screen fixed top-0 left-0 right-0 pointer-events-none z-40 flex">
-            stairs
+            <Stairs />
           </div>
         </div>
       </AnimatePresence>
