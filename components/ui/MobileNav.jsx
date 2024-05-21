@@ -38,9 +38,15 @@ function MobileNav() {
       </SheetTrigger>
       <SheetContent className="flex flex-col">
         {/* logo */}
-        <div>
-          logo
+        <div className="mt-32 mb-40 text-center text-2xl">
+          <Link href="/">
+            Reyna<span className="text-accent">.</span>
+          </Link>
         </div>
+        {/* nav */}
+        <nav>
+          nav
+        </nav>
       </SheetContent>
     </Sheet>
   )
