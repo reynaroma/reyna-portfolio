@@ -32,9 +32,11 @@ function MobileNav() {
   const pathName = usePathname(); // get the current path
 
   return (
-    <nav>
-      Mobile Nav
-    </nav>
+    <Sheet>
+      <SheetTrigger className="flex justify-center items-center">
+        <CiMenuFries className="text-[32px] text-accent" />
+      </SheetTrigger>
+    </Sheet>
   )
 }
 
