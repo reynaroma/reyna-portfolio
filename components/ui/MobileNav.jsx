@@ -40,7 +40,9 @@ function MobileNav() {
         {/* logo */}
         <div className="mt-32 mb-40 text-center text-2xl">
           <Link href="/">
-            Reyna<span className="text-accent">.</span>
+            <h1 className="text-4xl font-semibold">
+              Reyna<span className="text-accent">.</span>
+            </h1>
           </Link>
         </div>
         {/* nav */}
