@@ -29,6 +29,8 @@ const links = [
 ];
 
 function MobileNav() {
+  const pathName = usePathname(); // get the current path
+
   return (
     <nav>
       Mobile Nav
