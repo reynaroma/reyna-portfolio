@@ -40,6 +40,11 @@ const Photo = () => {
             animate={{
               strokeDasharray: ["15 120 25 25", "16, 25, 92, 72", "4 250 22 22"],
               rotate: [120, 360],
+            }}
+            transition={{
+              duration: 20,
+              repeat: Infinity,
+              repeatType: "reverse",
             }} />
         </motion.svg>
       </motion.div>
