@@ -21,12 +21,17 @@ const Photo = () => {
           }}
           className="w-[298px] h-[298px] xl:w-[498px] xl:h-[498px] mix-blend-lighten absolute">
           <Image
-            src="/Astronaut.png" priority quality={100} fill alt="" className="object-contain" />
+            src="/Astronaut.png"
+            priority
+            quality={100}
+            fill sizes="(max-width: 768px) 298px, 498px"
+            alt=""
+            className="object-contain" />
         </motion.div>
 
         {/* Circle */}
         <motion.svg
-          className="w-[300px] xl:w-[506px] h-[400px] xl:h-[506px]" fill="transparent"
+          className="w-[300px] xl:w-[506px] h-[300px] xl:h-[506px]" fill="transparent"
           viewBox="0 0 506 506"
           xmlns="https://www.w3.org/200/svg"
         >
