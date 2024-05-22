@@ -16,7 +16,7 @@ const Home = () => {
               Hello I&lsquo;m  <br /> <span className="text-accent">Reyna May Roma</span>
             </h1>
             <p className="max-w-[500px] mb-9 text-white/80">
-              Welcome to my digital canvs, I am a Software Developer based in Saskatchewan, Canadda. I develop user interfaces and web applications.
+              Welcome to my digital canvs, I am a Software Developer based in Saskatchewan, Canada. I develop user interfaces and web applications.
             </p>
             {/* btn and socials */}
             <div className="flex flex-col items-center gap-8 xl:flex-row">
