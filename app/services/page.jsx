@@ -48,7 +48,8 @@ const Services = () => {
           className='grid grid-cols-1 md:grid-cols-2 gap-[60px]'>
           {services.map((service, index) => (
             <div
-              key={index}>
+              key={index}
+              className='flex flex-1 flex-col justify-center gap-6 group'>
               {/* top */}
               <div>
                 <div>
