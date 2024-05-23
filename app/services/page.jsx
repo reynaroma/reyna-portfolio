@@ -31,9 +31,9 @@ const services = [
 
 function Services() {
   return (
-    <div>
+    <section className='container mx-auto'>
       services page
-    </div>
+    </section>
   )
 }
 
