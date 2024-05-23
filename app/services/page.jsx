@@ -51,8 +51,8 @@ const Services = () => {
               key={index}
               className='flex flex-1 flex-col justify-center gap-6 group'>
               {/* top */}
-              <div>
-                <div>
+              <div className='w-full flex justify-between items-center'>
+                <div className='text-5xl font-extrabold'>
                   {service.num}
                 </div>
                 <Link href={service.href}>
