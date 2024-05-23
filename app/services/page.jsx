@@ -1,6 +1,6 @@
 "use client";
 
-import { BsArrowBarRight } from 'react-icons/bs';
+import { BsArrowDownRight } from 'react-icons/bs';
 
 const services = [
   {
@@ -28,12 +28,42 @@ const services = [
     href: "",
   },
 ];
+import { motion } from 'framer-motion';
+import Link from 'next/link';
 
 const Services = () => {
   return (
     <section className='min-h-[80vh] flex flex-col justify-center py-12 xl:py-0'>
       <div className='container mx-auto'>
-        services page
+        <motion.div
+          initial={{ opacity: 0 }}
+          animate={{
+            opacity: 1,
+            transition: {
+              delay: 2.4,
+              duration: 0.4,
+              ease: "easeIn"
+            }
+          }}>
+          {services.map((service, index) => (
+            <div
+              key={index}>
+              {/* top */}
+              <div>
+                <div>
+                  {service.num}
+                </div>
+                <Link href={service.href}>
+                  <BsArrowDownRight />
+                </Link>
+              </div>
+              {/* title */}
+              <h2>{service.title}</h2>
+              {/* description */}
+              <p>{service.description}</p>
+            </div>
+          ))}
+        </motion.div>
       </div>
     </section>
   )
