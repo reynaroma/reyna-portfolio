@@ -52,7 +52,7 @@ const Services = () => {
               className='flex flex-1 flex-col justify-center gap-6 group'>
               {/* top */}
               <div className='w-full flex justify-between items-center'>
-                <div className='text-5xl font-extrabold text-outline text-transparent group-hover:text-outline-hover'>
+                <div className='text-5xl font-extrabold text-outline text-transparent group-hover:text-outline-hover transition-all'>
                   {service.num}
                 </div>
                 <Link href={service.href}>
