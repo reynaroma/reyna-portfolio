@@ -44,7 +44,8 @@ const Services = () => {
               duration: 0.4,
               ease: "easeIn"
             }
-          }}>
+          }}
+          className='grid grid-cols-1 md:grid-cols-2 gap-[60px]'>
           {services.map((service, index) => (
             <div
               key={index}>
@@ -61,6 +62,8 @@ const Services = () => {
               <h2>{service.title}</h2>
               {/* description */}
               <p>{service.description}</p>
+              {/* border */}
+              <div className='border-b border-white/20 w-full'></div>
             </div>
           ))}
         </motion.div>
