@@ -182,7 +182,9 @@ const Resume = () => {
                 <ScrollArea className='h-[400px]'>
                   <ul className='grid grid-cols-1 lg:grid-cols-2 gap-[30px]'>
                     {experience.items.map((item, index) => (
-                      <li key={index}>
+                      <li
+                        className='bg-[#232329] h-[184px] py-6 px-10 rounded-xl flex flex-col justify-center items-center lg:items-start gap-1'
+                        key={index}>
                         <span>{item.duration}</span>
                         <h3>{item.position}</h3>
                         <div>
