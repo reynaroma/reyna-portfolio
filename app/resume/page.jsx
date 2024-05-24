@@ -53,12 +53,12 @@ const experience = {
     {
       company: "Accenture Inc.",
       position: "Application Development Associate",
-      duration: "June 2021 - Febraury 2022",
+      duration: "2021 - 2022",
     },
     {
       company: "Free Periods Canada",
       position: "Webflow Developer",
-      duration: "November 2023 - February 2024",
+      duration: "2023 - 2024",
     },
   ]
 }
