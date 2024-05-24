@@ -238,7 +238,7 @@ const Resume = () => {
                             <div className='text-6xl group-hover:text-accent transition-all duration-300'>{skill.icon}</div>
                           </TooltipTrigger>
                           <TooltipContent>
-                            <p>{skill.name}</p>
+                            <p className='capitalize'>{skill.name}</p>
                           </TooltipContent>
                         </Tooltip>
                       </TooltipProvider>
