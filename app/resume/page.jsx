@@ -248,8 +248,19 @@ const Resume = () => {
               </div>
             </TabsContent>
             {/* about */}
-            <TabsContent value="about" className="w-full">
-              about
+            <TabsContent value="about" className="w-full text-center xl:text-left">
+              <div className='flex flex-col'>
+                <h3>{about.title}</h3>
+                <p>{about.description}</p>
+                <ul>
+                  {about.info.map((item, index) => (
+                    <li key={index}>
+                      <span>{item.fieldName}</span>
+                      <span>{item.fieldValue}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
             </TabsContent>
           </div>
         </Tabs>
