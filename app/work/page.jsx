@@ -1,9 +1,7 @@
 
-function Work() {
+const Work = () => {
   return (
-    <div>
-      work page
-    </div>
+    <div>Work</div>
   )
 }
 
