@@ -144,13 +144,16 @@ const Resume = () => {
       className='min-h-[80vh] flex items-center justify-center py-12 xl:py-0'
     >
       <div className="container mx-auto">
-        <Tabs>
+        <Tabs defaultValue='experience' className='flex flex-col xl:flex-row gap-[60px]'>
           <TabsList>
             <TabsTrigger>Experience</TabsTrigger>
             <TabsTrigger>Education</TabsTrigger>
             <TabsTrigger>Skills</TabsTrigger>
             <TabsTrigger>About me</TabsTrigger>
           </TabsList>
+
+          {/* content */}
+          <div>content</div>
         </Tabs>
       </div>
     </motion.div>
