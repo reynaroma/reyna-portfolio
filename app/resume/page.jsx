@@ -235,8 +235,11 @@ const Resume = () => {
                       <TooltipProvider>
                         <Tooltip>
                           <TooltipTrigger>
-                            <div>{skill.icon}</div>
+                            <div className='text-6xl group-hover:text-accent transition-all duration-300'>{skill.icon}</div>
                           </TooltipTrigger>
+                          <TooltipContent>
+                            <p>{skill.name}</p>
+                          </TooltipContent>
                         </Tooltip>
                       </TooltipProvider>
                     </li>
