@@ -103,7 +103,7 @@ const education = {
 };
 
 // skils data
-const skils = {
+const skills = {
   title: 'My skills',
   description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
   skillList: [
@@ -223,8 +223,18 @@ const Resume = () => {
               </div>
             </TabsContent>
             {/* skills */}
-            <TabsContent value="skills" className="w-full">
-              skills
+            <TabsContent value="skills" className="w-full h-full">
+              <div className='flex flex-col gap-[30px]'>
+                <div className='flex flex-col gap-[30px] text-center xl:text-left'>
+                  <h3 className='text-4xl font-bold'>{skills.title}</h3>
+                  <p className='max-w-[600px] text-white/60 mx-auto xl:mx-0'>{skills.description}</p>
+                </div>
+                <ul>
+                  {skills.skillList.map((skill, index) => (
+                    <li key={index}>{skill.name}</li>
+                  ))}
+                </ul>
+              </div>
             </TabsContent>
             {/* about */}
             <TabsContent value="about" className="w-full">
