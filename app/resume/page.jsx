@@ -7,7 +7,7 @@ import { FaWebflow } from "react-icons/fa6";
 // about data
 const about = {
   title: 'About me',
-  description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+  description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
   info: [
     {
       fieldName: 'Name',
@@ -40,6 +40,25 @@ const about = {
     {
       fieldName: 'Language',
       fieldValue: 'English, Filipino',
+    },
+  ]
+}
+
+// experience data
+const experience = {
+  icon: '/assets/resume/badge.svg',
+  title: "My experience",
+  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+  items: [
+    {
+      company: "Accenture Inc.",
+      position: "Application Development Associate",
+      duration: "June 2021 - Febraury 2022",
+    },
+    {
+      company: "Free Periods Canada",
+      position: "Webflow Developer",
+      duration: "November 2023 - February 2024",
     },
   ]
 }
