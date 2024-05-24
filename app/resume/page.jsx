@@ -153,7 +153,12 @@ const Resume = () => {
           </TabsList>
 
           {/* content */}
-          <div>content</div>
+          <div className='min-h-[70vh] w-full'>
+            {/* experience */}
+            <TabsContent value="experience" className="w-full">
+              experience
+            </TabsContent>
+          </div>
         </Tabs>
       </div>
     </motion.div>
