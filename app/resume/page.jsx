@@ -57,7 +57,7 @@ const experience = {
     },
     {
       company: "Free Periods Canada",
-      position: "Webflow Developer",
+      position: "Webflow Developer Intern",
       duration: "2023 - 2024",
     },
     {
@@ -67,7 +67,7 @@ const experience = {
     },
     {
       company: "Free Periods Canada",
-      position: "Webflow Developer",
+      position: "Webflow Developer Intern",
       duration: "2023 - 2024",
     },
     {
@@ -77,7 +77,7 @@ const experience = {
     },
     {
       company: "Free Periods Canada",
-      position: "Webflow Developer",
+      position: "Webflow Developer Intern",
       duration: "2023 - 2024",
     },
   ]
@@ -185,13 +185,12 @@ const Resume = () => {
                       <li
                         className='bg-[#232329] h-[184px] py-6 px-10 rounded-xl flex flex-col justify-center items-center lg:items-start gap-1'
                         key={index}>
-                        <span>{item.duration}</span>
-                        <h3>{item.position}</h3>
-                        <div>
+                        <span className='text-accent'>{item.duration}</span>
+                        <h3 className='text-xl max-w-[260px] min-h-[60px] text-center lg:text-left'>{item.position}</h3>
+                        <div className='flex items-center gap-3'>
                           {/* dot */}
-                          <span>
-                            <p>{item.company}</p>
-                          </span>
+                          <span className='w-[6px] h-[6px] rounded-full bg-accent'></span>
+                          <p className='text-white/60'>{item.company}</p>
                         </div>
                       </li>
                     ))}
