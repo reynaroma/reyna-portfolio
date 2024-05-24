@@ -1,6 +1,6 @@
 "use client";
 
-import { FaThml5, FaCss3, FaReact, FaNodeJs, FaJs, } from 'react-icons/fa';
+import { FaHtml5, FaCss3, FaReact, FaNodeJs, FaJs, } from 'react-icons/fa';
 import { SiTailwindcss, SiNextdotjs } from 'react-icons/si';
 import { FaWebflow } from "react-icons/fa6";
 
@@ -44,7 +44,7 @@ const about = {
   ]
 };
 
-// experience data
+// experience data3
 const experience = {
   icon: '/assets/resume/badge.svg',
   title: "My experience",
@@ -108,7 +108,7 @@ const skills = {
   description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
   skillList: [
     {
-      icon: <FaThml5 />,
+      icon: <FaHtml5 />,
       name: 'html 5',
     },
     {
@@ -144,7 +144,7 @@ const skills = {
 
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 
-import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from '@radix-ui/react-tooltip';
+import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from '@/components/ui/tooltip';
 
 import { ScrollArea } from '@/components/ui/scroll-area';
 import { motion } from 'framer-motion';
@@ -231,7 +231,15 @@ const Resume = () => {
                 </div>
                 <ul className='grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 xl:gap-[30px]'>
                   {skills.skillList.map((skill, index) => (
-                    <li key={index}>{skill.name}</li>
+                    <li key={index}>
+                      <TooltipProvider>
+                        <Tooltip>
+                          <TooltipTrigger>
+                            <div>{skill.icon}</div>
+                          </TooltipTrigger>
+                        </Tooltip>
+                      </TooltipProvider>
+                    </li>
                   ))}
                 </ul>
               </div>
