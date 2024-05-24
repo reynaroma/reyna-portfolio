@@ -145,7 +145,12 @@ const Resume = () => {
     >
       <div className="container mx-auto">
         <Tabs>
-          
+          <TabsList>
+            <TabsTrigger>Experience</TabsTrigger>
+            <TabsTrigger>Education</TabsTrigger>
+            <TabsTrigger>Skills</TabsTrigger>
+            <TabsTrigger>About me</TabsTrigger>
+          </TabsList>
         </Tabs>
       </div>
     </motion.div>
