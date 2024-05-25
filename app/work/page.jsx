@@ -73,6 +73,18 @@ const Work = () => {
             <div>
               {/* outline num */}
               <div className='text-8xl leading-none font-extrabold text-transparent text-outline'>{project.num}</div>
+              {/* project category */}
+              <h2 className='text-[42px] font-bold leading-none text-white group-hover:text-accent transition-all duration-500 capitalize'>{project.category} project</h2>
+              {/* project description */}
+              <p className='text-white/60'>
+                {project.description}
+              </p>
+              {/* stack */}
+              <ul>
+                {project.stack.map((item, index) => (
+                  <li key={index}>{item.name}</li>
+                ))}
+              </ul>
             </div>
           </div>
           <div className='w-full xl:w-[50%]'>slider</div>
