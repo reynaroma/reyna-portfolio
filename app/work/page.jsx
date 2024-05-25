@@ -80,9 +80,12 @@ const Work = () => {
                 {project.description}
               </p>
               {/* stack */}
-              <ul>
+              <ul className='flex gap-4'>
                 {project.stack.map((item, index) => (
-                  <li key={index}>{item.name}</li>
+                  <li
+                    key={index}
+                    className='text-xl text-accent'
+                  >{item.name}, </li>
                 ))}
               </ul>
             </div>
