@@ -72,7 +72,7 @@ const Work = () => {
           <div className='w-full xl:w-[50%] xl:h-[460px] flex flex-col xl:justify-between order-2 xl:order-none'>
             <div>
               {/* outline num */}
-              <div className=''>{projects.num}</div>
+              <div className='text-8xl leading-none font-extrabold text-transparent text-outline'>{project.num}</div>
             </div>
           </div>
           <div className='w-full xl:w-[50%]'>slider</div>
