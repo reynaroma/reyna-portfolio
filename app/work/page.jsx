@@ -1,6 +1,6 @@
 "use client";
 
-import { } from 'framer-motion';
+import { motion } from 'framer-motion';
 import React, { useState } from 'react';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -60,8 +60,10 @@ const projects = [
 ];
 
 const Work = () => {
+  const [project, setProject] = useState(projects[0]); // set default project
+
   return (
-    <div>Work</div>
+    <motion.div>Work</motion.div>
   )
 }
 
