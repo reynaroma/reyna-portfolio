@@ -139,7 +139,17 @@ const Work = () => {
                 <SwiperSlide
                   key={index}
                   className='w-full'>
-                  <div className='h-[460px] relative group flex justify-center items-center bg-pink-50/20'></div>
+                  <div className='h-[460px] relative group flex justify-center items-center bg-pink-50/20'>
+                    {/* overlay */}
+                    <div></div>
+                    {/* image */}
+                    <div className='relative w-full h-full'>
+                      <Image
+                        src={project.image}
+                        className='object-cover'
+                        alt='' fill />
+                    </div>
+                  </div>
                 </SwiperSlide>
               ))}
             </Swiper>
