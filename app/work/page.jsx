@@ -95,7 +95,7 @@ const Work = () => {
               {/* buttons */}
               <div>
                 <Link href={project.live}>
-                  <TooltipProvider>
+                  <TooltipProvider delayDuration={100}>
                     <Tooltip>
                       <TooltipTrigger>
                         <BsArrowUpRight />
