@@ -70,7 +70,7 @@ const Work = () => {
       <div className="container mx-auto">
         <div className='flex flex-col xl:flex-row xl:gap-[30px]'>
           <div className='w-full xl:w-[50%] xl:h-[460px] flex flex-col xl:justify-between order-2 xl:order-none'>
-            <div className='flex flex-col gap-[30px] '>
+            <div className='flex flex-col gap-[30px] h-[50%]'>
               {/* outline num */}
               <div className='text-8xl leading-none font-extrabold text-transparent text-outline'>{project.num}</div>
               {/* project category */}
@@ -123,7 +123,13 @@ const Work = () => {
               </div>
             </div>
           </div>
-          <div className='w-full xl:w-[50%]'>slider</div>
+          <div className='w-full xl:w-[50%]'>
+            <Swiper>
+              {projects.map((project, index) => (
+                <SwiperSlide key={index}>slide</SwiperSlide>
+              ))}
+            </Swiper>
+          </div>
         </div>
       </div>
     </motion.section>
