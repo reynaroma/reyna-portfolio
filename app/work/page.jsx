@@ -84,8 +84,9 @@ const Work = () => {
                 {project.stack.map((item, index) => (
                   <li
                     key={index}
-                    className='text-xl text-accent'
-                  >{item.name}, </li>
+                    className='text-xl text-accent'>
+                    {item.name}
+                    {index !== project.stack.length - 1 && ","} </li>
                 ))}
               </ul>
             </div>
