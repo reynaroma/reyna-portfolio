@@ -90,6 +90,23 @@ const Work = () => {
                     {index !== project.stack.length - 1 && ","}</li>
                 ))}
               </ul>
+              {/* border */}
+              <div className='border border-white/20'></div>
+              {/* buttons */}
+              <div>
+                <Link href={project.live}>
+                  <TooltipProvider>
+                    <Tooltip>
+                      <TooltipTrigger>
+                        <BsArrowUpRight />
+                      </TooltipTrigger>
+                      <TooltipContent>
+                        <p>Live project</p>
+                      </TooltipContent>
+                    </Tooltip>
+                  </TooltipProvider>
+                </Link>
+              </div>
             </div>
           </div>
           <div className='w-full xl:w-[50%]'>slider</div>
