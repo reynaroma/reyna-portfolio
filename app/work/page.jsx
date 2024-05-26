@@ -136,7 +136,11 @@ const Work = () => {
               className='xl:h-[520px] mb-12'
               onSlideChange={handleSlideChange}>
               {projects.map((project, index) => (
-                <SwiperSlide key={index}>slide</SwiperSlide>
+                <SwiperSlide
+                  key={index}
+                  className='w-full'>
+                  <div className='h-[460px] relative group flex justify-center items-center bg-pink-50/20'></div>
+                </SwiperSlide>
               ))}
             </Swiper>
           </div>
