@@ -86,7 +86,8 @@ const Work = () => {
                     key={index}
                     className='text-xl text-accent'>
                     {item.name}
-                    {index !== project.stack.length - 1 && ","} </li>
+                    {/* remove the last comma */}
+                    {index !== project.stack.length - 1 && ","}</li>
                 ))}
               </ul>
             </div>
