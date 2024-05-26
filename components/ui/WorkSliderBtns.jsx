@@ -7,7 +7,14 @@ const WorkSliderBtns = ({ containerStyles, btnStyles, iconStyles }) => {
 
   const swiper = useSwiper();
   return (
-    <div>WorkSliderBtns</div>
+    <div className={containerStyles}>
+      <button className={btnStyles}>
+        <PiCaretLeftBold className={iconStyles} />
+      </button>
+      <button className={btnStyles}>
+        <PiCaretRightBold className={iconStyles} />
+      </button>
+    </div>
   )
 }
 
