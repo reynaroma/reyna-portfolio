@@ -12,7 +12,6 @@ import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from '@/comp
 
 import Link from 'next/link';
 import Image from 'next/image';
-import { github } from '@/public/assets';
 
 const projects = [
   {
@@ -61,6 +60,13 @@ const projects = [
 
 const Work = () => {
   const [project, setProject] = useState(projects[0]); // set default project
+
+  const handleSlideChange = (swiper) => {
+    // get the current slide index
+    const currentIndex = swiper.activeIndex;
+    // update projects state based on current slide index
+    setProject(projects[currentIndex]);
+  };
 
   return (
     <motion.section
@@ -124,7 +130,11 @@ const Work = () => {
             </div>
           </div>
           <div className='w-full xl:w-[50%]'>
-            <Swiper>
+            <Swiper
+              spaceBetween={30}
+              slidesPerView={1}
+              className='xl:h-[520px] mb-12'
+              onSlideChange={handleSlideChange}>
               {projects.map((project, index) => (
                 <SwiperSlide key={index}>slide</SwiperSlide>
               ))}
