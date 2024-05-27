@@ -39,6 +39,14 @@ import { motion } from "framer-motion";
 import { SelectValue } from "@radix-ui/react-select";
 
 const Contact = () => {
+
+  const form = useRef(); // form reference
+  const sendEmail = (e) => {
+    e.preventDefault(); // prevent default form submission
+    emailjs
+      .sendForm()
+  };
+
   return (
     <motion.section
       initial={{ opacity: 0 }}
