@@ -15,7 +15,7 @@ import {
 
 import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt } from "react-icons/fa";
 
-const info = [ 
+const info = [
   {
     icon: <FaPhoneAlt />,
     title: 'Phone',
@@ -33,9 +33,26 @@ const info = [
   },
 ];
 
+import { motion } from "framer-motion";
+
 const Contact = () => {
   return (
-    <div>Contact</div>
+    <motion.section
+      initial={{ opacity: 0 }}
+      animate={{
+        opacity: 1,
+        transition: { delay: 2.4, duration: 1.2, ease: 'easeIn' }
+      }}
+      className="py-6">
+      <div className="container mx-auto">
+        <div>
+          {/* form */}
+          <div>
+            <form action="">form</form>
+          </div>
+        </div>
+      </div>
+    </motion.section>
   )
 }
 
