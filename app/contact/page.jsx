@@ -45,11 +45,13 @@ const Contact = () => {
       }}
       className="py-6">
       <div className="container mx-auto">
-        <div>
+        <div className="flex flex-col xl:flex-row gap-[30px]">
           {/* form */}
           <div>
             <form action="">form</form>
           </div>
+          {/* info */}
+          <div>info</div>
         </div>
       </div>
     </motion.section>
