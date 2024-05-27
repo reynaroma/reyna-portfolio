@@ -81,6 +81,8 @@ const Contact = () => {
               <Textarea
                 placeholder='Type your message here.'
                 className='h-[200px]' />
+              {/* btn */}
+              <Button size="md" className="max-w-40" >Send message</Button>
             </form>
           </div>
           {/* info */}
