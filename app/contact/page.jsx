@@ -50,7 +50,17 @@ const Contact = () => {
           <div className="xl:h-[54%] order-2 xl:order-none">
             <form
               className="flex flex-col gap-6 p-10 bg-[#27272c] rounded-xl"
-              action="">form</form>
+              action="">
+              <h3 className="text-4xl text-accent">Let&lsquo;s work together</h3>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+              {/* input */}
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <Input type="firstname" placeholder="First name" />
+                <Input type="lastname" placeholder="Last name" />
+                <Input type="email" placeholder="Email address" />
+                <Input type="phone" placeholder="Last  Phone number" />
+              </div>
+            </form>
           </div>
           {/* info */}
           <div className="flex-1 flex items-center xl:justify-end order-1 xl:order-none mb-8 xl:mb-0">info</div>
