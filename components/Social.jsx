@@ -4,10 +4,10 @@ import { FaGithub, FaLinkedinIn, FaFacebookF } from 'react-icons/fa';
 import { SiGmail } from 'react-icons/si';
 
 const socials = [
-  { icon: <FaGithub />, path: '' },
-  { icon: <FaLinkedinIn />, path: '' },
+  { icon: <FaGithub />, path: 'https://github.com/reynaroma' },
+  { icon: <FaLinkedinIn />, path: 'https://www.linkedin.com/in/reyna-may-roma/' },
   { icon: <SiGmail />, path: '' },
-  { icon: <FaFacebookF />, path: '' },
+  { icon: <FaFacebookF />, path: 'https://www.facebook.com/littleraaaain/' },
 ]
 
 const Social = ({ containerStyles, iconStyles }) => {
