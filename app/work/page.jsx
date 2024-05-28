@@ -17,45 +17,45 @@ import WorkSliderBtns from '@/components/ui/WorkSliderBtns';
 const projects = [
   {
     num: '01',
-    category: 'Frontend',
-    title: 'Project 1',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing.',
+    category: 'Webflow project',
+    title: 'Free Periods Canada',
+    description: 'A digital network that promotes menstrual health education and advocacy in Canada. Every pixel of this website was entirely built with Webflow.',
     stack: [
-      { name: 'Html 5' },
-      { name: 'Css 3' },
+      { name: 'Webflow' },
+      { name: 'CMS' },
       { name: 'JavaScript' },
     ],
-    image: '/assets/work/thumb1.png',
-    live: '',
-    github: '',
+    image: '/assets/work/TN1.png',
+    live: 'https://www.freeperiods.ca/',
+    github: 'https://webflow.com/',
   },
   {
     num: '02',
-    category: 'Frontend',
-    title: 'Project 2',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing.',
-    stack: [
-      { name: 'Next.js' },
-      { name: 'Tailwind.css 3' },
-      { name: 'Node.js' },
-    ],
-    image: '/assets/work/thumb2.png',
-    live: '',
-    github: '',
-  },
-  {
-    num: '03',
-    category: 'Frontend',
-    title: 'Project 3',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing.',
+    category: 'Frontend project',
+    title: 'Kobodrop App',
+    description: 'A fully responsive financial app landing page using React.js and Tailwind.css.',
     stack: [
       { name: 'Next.js' },
       { name: 'Tailwind.css' },
-      { name: 'JavaScript' },
+      { name: 'React.js' },
     ],
-    image: '/assets/work/thumb3.png',
-    live: '',
-    github: '',
+    image: '/assets/work/TN3.png',
+    live: 'https://kobodrop-app.netlify.app/',
+    github: 'https://github.com/reynaroma/kobodrop-app',
+  },
+  {
+    num: '03',
+    category: 'Frontend project',
+    title: 'Old Portfolio',
+    description: 'My previous portfolio which was built with Next.js and Tailwind.css. It features animated transitions.',
+    stack: [
+      { name: 'Next.js' },
+      { name: 'Tailwind.css' },
+      { name: 'React.js' },
+    ],
+    image: '/assets/work/TN4.png',
+    live: 'https://next-animated-portfolio-reynaroma.vercel.app/portfolio',
+    github: 'https://github.com/reynaroma/next-animated-portfolio',
   },
 ];
 
@@ -84,7 +84,7 @@ const Work = () => {
               {/* outline num */}
               <div className='text-8xl leading-none font-extrabold text-transparent text-outline'>{project.num}</div>
               {/* project category */}
-              <h2 className='text-[42px] font-bold leading-none text-white group-hover:text-accent transition-all duration-500 capitalize'>{project.category} project</h2>
+              <h2 className='text-[42px] font-bold leading-none text-white group-hover:text-accent transition-all duration-500 capitalize'>{project.category}</h2>
               {/* project description */}
               <p className='text-white/60'>
                 {project.description}
