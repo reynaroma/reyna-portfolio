@@ -6,26 +6,26 @@ const services = [
   {
     num: '01',
     title: 'Web Development',
-    description: " Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-    href: "",
+    description: "Building modern, responsive website using JavaScript frameworks like React.js, Next.js, TailwindCSS and so on.",
+    href: "#web-development",
   },
   {
     num: '02',
-    title: 'Web Development',
-    description: " Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-    href: "",
+    title: 'Webflow Development',
+    description: "Creating custom websites using Webflow, a no-code platform for building responsive websites.",
+    href: "#webflow-development",
   },
   {
     num: '03',
-    title: 'Web Development',
-    description: " Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-    href: "",
+    title: 'Power Apps Development',
+    description: "Developing custom business applications using Microsoft Power Apps.",
+    href: "#powerapps-development",
   },
   {
     num: '04',
-    title: 'Web Development',
-    description: " Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-    href: "",
+    title: 'Full-Stack Development',
+    description: "End-to-end web solutions from font-end to back-end using JavaScript frameworks.",
+    href: "#fullstack-development",
   },
 ];
 import { motion } from 'framer-motion';
