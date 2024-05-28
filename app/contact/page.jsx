@@ -123,7 +123,7 @@ const Contact = () => {
               action=""
             >
               <h3 className="text-4xl text-accent">Let&lsquo;s work together</h3>
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+              <p>Have a project in mind? Let's collaborate on your next project.</p>
               {/* input */}
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <Input
