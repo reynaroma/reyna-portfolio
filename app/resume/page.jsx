@@ -7,7 +7,7 @@ import { FaWebflow } from "react-icons/fa6";
 // about data
 const about = {
   title: 'About me',
-  description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+  description: 'Hi there! I am a software developer with experience in JavaScript and expertise in frameworks like React.js, Next.js, Node.js and Webflow. I am a quick learner and collaborate closely with the team to create efficient, scalable, and user-friendly solutions that solve real-world problems. Lets work together!',
   info: [
     {
       fieldName: 'Name',
@@ -48,7 +48,7 @@ const about = {
 const experience = {
   icon: '/assets/resume/badge.svg',
   title: "My experience",
-  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+  description: "These are the companies and organizations I've worked with.",
   items: [
     {
       company: "Accenture Inc.",
@@ -87,7 +87,7 @@ const experience = {
 const education = {
   icon: '/assets/resume/cap.svg',
   title: "My education",
-  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+  description: "These are the institutions I've studied at.",
   items: [
     {
       institution: "Adamson University",
@@ -105,7 +105,7 @@ const education = {
 // skils data
 const skills = {
   title: 'My skills',
-  description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+  description: 'These are the skills I have acquired recently and still learning.',
   skillList: [
     {
       icon: <FaHtml5 />,
