@@ -7,7 +7,7 @@ import { FaWebflow } from "react-icons/fa6";
 // about data
 const about = {
   title: 'About me',
-  description: 'Hi there! I am a software developer with experience in JavaScript and expertise in frameworks like React.js, Next.js, Node.js and Webflow. I am a quick learner and collaborate closely with the team to create efficient, scalable, and user-friendly solutions that solve real-world problems. Lets work together!',
+  description: "Hi there! I am a software developer with experience in JavaScript and expertise in frameworks like React.js, Next.js, Node.js and Webflow. I am a quick learner and hungry for new challenges and opportunities. Let's work together!",
   info: [
     {
       fieldName: 'Name',
