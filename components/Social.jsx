@@ -6,7 +6,7 @@ import { SiGmail } from 'react-icons/si';
 const socials = [
   { icon: <FaGithub />, path: 'https://github.com/reynaroma' },
   { icon: <FaLinkedinIn />, path: 'https://www.linkedin.com/in/reyna-may-roma/' },
-  { icon: <SiGmail />, path: '' },
+  { icon: <SiGmail />, path: 'mailto:roma.reynamay@gmail.com' },
   { icon: <FaFacebookF />, path: 'https://www.facebook.com/littleraaaain/' },
 ]
 
