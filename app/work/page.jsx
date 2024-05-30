@@ -53,7 +53,7 @@ const projects = [
       { name: 'Tailwind.css' },
       { name: 'React.js' },
     ],
-    image: '/assets/work/TN4.png',
+    image: '/assets/work/TN2.png',
     live: 'https://next-animated-portfolio-reynaroma.vercel.app/portfolio',
     github: 'https://github.com/reynaroma/next-animated-portfolio',
   },
