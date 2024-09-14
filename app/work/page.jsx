@@ -17,6 +17,20 @@ import WorkSliderBtns from '@/components/ui/WorkSliderBtns';
 const projects = [
   {
     num: '01',
+    category: 'Frontend project',
+    title: 'Focus',
+    description: 'This SaaS Landing Page is a sleek, modern, and fully responsive web application built using ReactJS, Next.js, TailwindCSS, and Framer Motion to deliver a seamless user experience with smooth animations.',
+    stack: [
+      { name: 'React.js' },
+      { name: 'Tailwind.css' },
+      { name: 'JavaScript' },
+    ],
+    image: '/assets/work/TN4.png',
+    live: 'https://focus-smoky.vercel.app/',
+    github: 'https://github.com/reynaroma/focus',
+  },
+  {
+    num: '02',
     category: 'Webflow project',
     title: 'Free Periods Canada',
     description: 'A digital network that promotes menstrual health education and advocacy in Canada. Every pixel of this website was entirely built with Webflow.',
@@ -30,7 +44,7 @@ const projects = [
     github: 'https://webflow.com/',
   },
   {
-    num: '02',
+    num: '03',
     category: 'Frontend project',
     title: 'Kobodrop App',
     description: 'A fully responsive financial app landing page using React.js and Tailwind.css.',
@@ -44,7 +58,7 @@ const projects = [
     github: 'https://github.com/reynaroma/kobodrop-app',
   },
   {
-    num: '03',
+    num: '04',
     category: 'Frontend project',
     title: 'Old Portfolio',
     description: 'My previous portfolio which was built with Next.js and Tailwind.css. It features animated transitions.',
