@@ -32,7 +32,7 @@ const info = [
   {
     icon: <FaMapMarkerAlt />,
     title: 'Address',
-    description: '1319 Warner Street, Moose Jaw, S6H 6K2, SK, Canada',
+    description: 'Regina, SK, Canada',
   },
 ];
 
